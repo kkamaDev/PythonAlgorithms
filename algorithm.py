@@ -1,8 +1,8 @@
-nums = int(input("son kriiting >>"))
-sum = 0
-for num in str(nums):
-    sum = sum + int(num)
-print(sum)
+# nums = int(input("son kriiting >>"))
+# sum = 0
+# for num in str(nums):
+#     sum = sum + int(num)
+# print(sum)
 
 
 # # sonni max  va min topish
@@ -34,3 +34,13 @@ print(sum)
 #     return nums
 # son = [0,1,2,0,12]
 # print(moveZero(son))
+
+
+
+def teskari(x):
+    teskari = 0
+    oxirgi = x % 10
+    teskari = teskari * 10 + oxirgi
+    x = x // 10
+    return x
+print(teskari(123))
