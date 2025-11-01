@@ -12,3 +12,4 @@
 # son = [0,1,2,0,12]
 # print(moveZero(son))
 
+
