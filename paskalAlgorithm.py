@@ -17,5 +17,5 @@ def generate(n:int)->list:
     
     for i in range(n-1):
         row = generate_row(row)
-        result.append(row)
-    return result
+        result.append(row) # 
+    return result 
