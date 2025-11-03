@@ -5,4 +5,4 @@ def removeElement(nums:list,val):
             nums[j] = nums[i] # har safar val ga teng bo'lmasa qo'shib ketadi
             j+=1
     return j
-print(removeElement([2,2,3,3], 3))
+print(removeElement([2,2,3,2], 3))
