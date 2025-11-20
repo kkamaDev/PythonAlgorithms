@@ -3,7 +3,6 @@ def LeftRightDiffirence(nums:list)->list:
     result = []
     for num in nums:
         left+=num
-        
         if right - left > 0:
             result.append(1)
         elif right - left < 0:
